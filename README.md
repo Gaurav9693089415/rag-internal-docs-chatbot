@@ -1,10 +1,9 @@
+Here's your `README.md` written in **screenshot style**, exactly how it appears in the image format you're aiming for:
 
 ---
 
-
-
 ```markdown
-# 📄 RAG-Powered Internal Docs Chatbot
+#  RAG-Powered Internal Docs Chatbot
 
 A lightweight chatbot for querying internal documents (e.g., employee handbooks) using **RAG (Retrieval-Augmented Generation)** and **OpenAI GPT-3.5**.
 
@@ -14,21 +13,21 @@ A lightweight chatbot for querying internal documents (e.g., employee handbooks)
 
 ##  Features
 
--  Preloaded internal handbook for instant Q&A
--  Semantic search via FAISS vector similarity
--  GPT-powered answers to employee questions
--  Uses Sentence Transformers + LangChain
+-  Preloaded internal handbook for instant Q&A  
+-  Semantic search via FAISS vector similarity  
+-  GPT-powered answers to employee questions  
+-  Uses Sentence Transformers + LangChain  
 
 ---
 
-##  Project Structure
+## 🗂️ Project Structure
 
 ```
 
 rag-internal-docs-chatbot/
 │
 ├── .streamlit/
-│   └── config.toml              # Streamlit deployment config
+│   └── config.toml             # Streamlit deployment config
 │
 ├── data/
 │   ├── Employee-Handbook.pdf   # Your input document
@@ -58,11 +57,11 @@ rag-internal-docs-chatbot/
    cd rag-internal-docs-chatbot
 ````
 
-2. **Create & activate a virtual environment**
+2. **Create virtual environment**
 
    ```bash
    python -m venv venv
-   source venv/bin/activate        # or venv\Scripts\activate on Windows
+   venv\Scripts\activate  # On Windows
    ```
 
 3. **Install dependencies**
@@ -71,22 +70,14 @@ rag-internal-docs-chatbot/
    pip install -r requirements.txt
    ```
 
-4. **Add your OpenAI API key**
-
-   Create a file `src/.env` with:
+4. **Set your API key**
+   Create a `.env` file inside `src/` and add:
 
    ```
-   OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
+   OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxx
    ```
 
-5. **Preprocess the document (embedding & indexing)**
-
-   ```bash
-   cd src
-   python chunk_and_embed.py
-   ```
-
-6. **Run the app**
+5. **Run the app**
 
    ```bash
    streamlit run src/app.py
@@ -96,10 +87,9 @@ rag-internal-docs-chatbot/
 
 ##  Deployment on Streamlit Cloud
 
-Already deployed here:
- [https://rag-app-docs-chatbot-2cjfvaoaedrrubqqc6ydu5.streamlit.app](https://rag-app-docs-chatbot-2cjfvaoaedrrubqqc6ydu5.streamlit.app)
+Already deployed here: [https://rag-app-docs-chatbot-2cjfvaoaedrrubqqc6ydu5.streamlit.app](https://rag-app-docs-chatbot-2cjfvaoaedrrubqqc6ydu5.streamlit.app)
 
-**To deploy your own version:**
+To deploy your own version:
 
 1. Push this repo to GitHub
 2. Go to [streamlit.io/cloud](https://streamlit.io/cloud) and link your repo
@@ -108,36 +98,8 @@ Already deployed here:
 
 ---
 
-##  Tech Stack
+## 🙋‍♂️ Author
 
-* [LangChain](https://www.langchain.com/)
-* [OpenAI GPT-3.5](https://platform.openai.com/)
-* [FAISS](https://github.com/facebookresearch/faiss)
-* [HuggingFace Sentence Transformers](https://www.sbert.net/)
-* [Streamlit](https://streamlit.io/)
-
----
-
-##  Use Cases
-
-* Internal policy/document Q\&A
-* Employee handbook assistants
-* Compliance / onboarding chatbots
-
----
-
-##  Author
-
-Made  by [Gaurav Kumar](https://github.com/Gaurav9693089415)
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE)
-
-```
-
----
-
+**Gaurav Kumar**
+[GitHub](https://github.com/Gaurav9693089415) • [LinkedIn](https://www.linkedin.com/in/gaurav9693089415)
 
