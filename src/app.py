@@ -1,5 +1,5 @@
 import streamlit as st
-from src.chat_chain import answer_query
+from chat_chain import answer_query
 
 import os
 
