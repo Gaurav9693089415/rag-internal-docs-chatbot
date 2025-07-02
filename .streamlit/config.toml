@@ -1,0 +1,4 @@
+[server]
+headless = true          # Run without a browser automatically opening (useful on remote servers)
+port = 8501              # Which port to run on (default is 8501, so you can omit this if you want)
+enableCORS = false       # Disable CORS protection (only if needed, e.g., behind a reverse proxy)
