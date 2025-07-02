@@ -10,14 +10,14 @@ A lightweight chatbot for querying internal documents (e.g., employee handbooks)
 
 
 
-** 🚀 Features **
+# 🚀 Features 
 
-- 📄 Upload and parse internal PDF documents
+- 📄 Preloaded internal handbook for instant Q&A
 - 🔍 Semantic search via FAISS vector similarity
 - 🤖 GPT-powered answers to employee questions
 - 🧠 Uses Sentence Transformers + LangChain
 
----
+
 
 ** 📁 Project Structure **
 
