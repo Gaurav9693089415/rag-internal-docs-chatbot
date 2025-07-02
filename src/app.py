@@ -1,5 +1,6 @@
 import streamlit as st
-from chat_chain import answer_query
+from src.chat_chain import answer_query
+
 import os
 
 st.title("📄 AI Internal Docs Assistant")
