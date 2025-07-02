@@ -19,30 +19,10 @@ A lightweight chatbot for querying internal documents (e.g., employee handbooks)
 
 
 
-** 📁 Project Structure **
 
 
-rag-internal-docs-chatbot/
-│
-├── .streamlit/
-│   └── config.toml              # Streamlit deployment config
-│
-├── data/
-│   ├── Employee-Handbook.pdf   # Your input document
-│   ├── faiss.index             # Vector index
-│   └── chunks.pkl              # Pickled text chunks
-│
-├── src/
-│   ├── app.py                  # Streamlit frontend app
-│   ├── chat\_chain.py           # RAG chain logic
-│   ├── chunk\_and\_embed.py      # PDF chunking + FAISS indexing
-│   └── extract\_text.py         # Utility to extract text from PDF
-│
-├── .env                        # Add your OpenAI API key here (not committed)
-├── .gitignore
-├── requirements.txt
-└── README.md
 
+<pre><code>## 📁 Project Structure ```text rag-internal-docs-chatbot/ │ ├── .streamlit/ │ └── config.toml # Streamlit deployment config │ ├── data/ │ ├── Employee-Handbook.pdf # Your input document │ ├── faiss.index # Vector index │ └── chunks.pkl # Pickled text chunks │ ├── src/ │ ├── app.py # Streamlit frontend app │ ├── chat_chain.py # RAG chain logic │ ├── chunk_and_embed.py # PDF chunking + FAISS indexing │ └── extract_text.py # Utility to extract text from PDF │ ├── .env # Add your OpenAI API key here (not committed) ├── .gitignore ├── requirements.txt └── README.md ``` </code></pre>
 
 
 
