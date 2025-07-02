@@ -2,7 +2,7 @@
 
 
 
- **RAG-Powered Internal Docs Chatbot**
+ ## RAG-Powered Internal Docs Chatbot
 
 A lightweight chatbot for querying internal documents (e.g., employee handbooks) using **RAG (Retrieval-Augmented Generation)** and **OpenAI GPT-3.5**.
 
