@@ -53,7 +53,7 @@ rag-internal-docs-chatbot/
    ```bash
    git clone https://github.com/Gaurav9693089415/rag-internal-docs-chatbot.git
    cd rag-internal-docs-chatbot
-````
+```
 
 2. **Create & activate a virtual environment**
 
