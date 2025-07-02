@@ -10,12 +10,12 @@ A lightweight chatbot for querying internal documents (e.g., employee handbooks)
 
 
 
-# 🚀 Features 
+#  Features 
 
-- 📄 Preloaded internal handbook for instant Q&A
-- 🔍 Semantic search via FAISS vector similarity
-- 🤖 GPT-powered answers to employee questions
-- 🧠 Uses Sentence Transformers + LangChain
+-  Preloaded internal handbook for instant Q&A
+-  Semantic search via FAISS vector similarity
+-  GPT-powered answers to employee questions
+-  Uses Sentence Transformers + LangChain
 
 
 
@@ -101,11 +101,11 @@ Already deployed here:
 1. Push this repo to GitHub
 2. Go to [streamlit.io/cloud](https://streamlit.io/cloud) and link your repo
 3. Set `OPENAI_API_KEY` using the **Secrets Manager**
-4. Done ✅
+4. Done 
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 * [LangChain](https://www.langchain.com/)
 * [OpenAI GPT-3.5](https://platform.openai.com/)
@@ -123,7 +123,7 @@ Already deployed here:
 
 ---
 
-## 👤 Author
+##  Author
 
 Made by  [Gaurav Kumar](https://github.com/Gaurav9693089415)
 
@@ -133,9 +133,4 @@ Made by  [Gaurav Kumar](https://github.com/Gaurav9693089415)
 
 This project is licensed under the [MIT License](LICENSE)
 
-```
-
----
-
-Would you like this content to be saved to your local `README.md` file and pushed to GitHub? I can guide you step-by-step for that too.
 ```
