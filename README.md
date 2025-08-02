@@ -33,7 +33,7 @@ A Streamlit-based chatbot for answering queries from internal company documentat
 
 
 
----
+```
 
 ##  Features
 
@@ -43,7 +43,7 @@ A Streamlit-based chatbot for answering queries from internal company documentat
 -  Streamlit UI for user interaction
 -  Modular and extensible Python architecture
 
----
+
 
 ## 🛠️ Setup Instructions
 
@@ -51,13 +51,13 @@ A Streamlit-based chatbot for answering queries from internal company documentat
 ```bash
 git clone https://github.com/your-username/rag-powered-internal-docs-chatbot.git
 cd rag-powered-internal-docs-chatbot
-````
+
 
 ### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
-```
+
 
 ### 3. Add your `.env` file
 
@@ -134,5 +134,6 @@ MIT License. See `LICENSE` for more details.
 
 Would you like me to generate this as an actual `README.md` file for direct download or paste it in your folder?
 ```
+
 
 
