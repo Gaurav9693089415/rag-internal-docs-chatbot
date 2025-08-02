@@ -7,14 +7,12 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-# FAISS index and data files
-*.pkl
-*.index
-data/*.pkl
-data/*.index
 
-# Streamlit cache
-.streamlit/
+# Ignore everything in .streamlit
+.streamlit/*
+# But NOT config.toml
+!.streamlit/config.toml
+
 
 # VS Code settings
 .vscode/
