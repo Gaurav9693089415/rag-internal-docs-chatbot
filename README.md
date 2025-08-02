@@ -1,8 +1,7 @@
 
 
----
 
-```markdown
+
 # RAG-Powered Internal Docs Chatbot
 
 A Streamlit-based chatbot for answering queries from internal company documentation (e.g., employee handbooks, policy PDFs) using Retrieval-Augmented Generation (RAG). Powered by FAISS, custom embedding pipelines, and LLMs.
@@ -13,7 +12,7 @@ A Streamlit-based chatbot for answering queries from internal company documentat
 
 ## 📁 Project Structure
 
-```
+
 
 .
 ├── .streamlit/              # Streamlit Cloud settings
@@ -32,7 +31,7 @@ A Streamlit-based chatbot for answering queries from internal company documentat
 ├── README.md                # Project overview
 └── .gitignore
 
-````
+
 
 ---
 
@@ -135,3 +134,4 @@ MIT License. See `LICENSE` for more details.
 
 Would you like me to generate this as an actual `README.md` file for direct download or paste it in your folder?
 ```
+
