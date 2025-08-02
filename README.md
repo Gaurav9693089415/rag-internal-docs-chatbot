@@ -132,8 +132,5 @@ MIT License. See `LICENSE` for more details.
 
 ---
 
-Would you like me to generate this as an actual `README.md` file for direct download or paste it in your folder?
-```
-
 
 
