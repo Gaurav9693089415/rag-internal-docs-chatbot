@@ -7,9 +7,9 @@
 A Streamlit-based chatbot for answering queries from internal company documentation (e.g., employee handbooks, policy PDFs) using Retrieval-Augmented Generation (RAG). Powered by FAISS, custom embedding pipelines, and LLMs.
 
 🔗 **Live Demo:** [Try it on Streamlit Cloud](https://rag-app-docs-chatbot-2cjfvaoaedrrubqqc6ydu5.streamlit.app/)
-## 🖼️ App Screenshot
-
-![App Screenshot](https://raw.githubusercontent.com/Gaurav9693089415/rag-internal-docs-chatbot/main/RagAppScreenShot.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Gaurav9693089415/rag-internal-docs-chatbot/main/RagAppScreenShot.png" width="700"/>
+</p>
 
 ---
 
@@ -131,6 +131,7 @@ To deploy your own:
 MIT License. See `LICENSE` for more details.
 
 ---
+
 
 
 
