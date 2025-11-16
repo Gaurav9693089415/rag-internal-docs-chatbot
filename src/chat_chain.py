@@ -2,9 +2,7 @@ from langchain_openai import ChatOpenAI
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
-from langchain.prompts import PromptTemplate
-
-from langchain.chains import LLMChain
+from langchain_core.prompts import PromptTemplate
 from langchain.docstore import InMemoryDocstore
 from langchain.schema import Document
 
@@ -39,11 +37,9 @@ retriever = vectorstore.as_retriever()
 # LLM
 llm = ChatOpenAI(model_name="gpt-3.5-turbo", api_key=api_key)
 
-# Prompt template
-prompt = PromptTemplate(
-    input_variables=["context", "query"],
-    template="""
-You are a helpful assistant. Use ONLY the provided context to answer the question.
+# Prompt
+prompt = PromptTemplate.from_template("""
+Use ONLY the context below to answer the question.
 
 Context:
 {context}
@@ -52,14 +48,12 @@ Question:
 {query}
 
 Answer:
-"""
-)
-
-# Chain
-rag_chain = LLMChain(llm=llm, prompt=prompt)
+""")
 
 def answer_query(query: str):
     docs = retriever.get_relevant_documents(query)
     context = "\n\n".join([doc.page_content for doc in docs])
-    result = rag_chain.run({"context": context, "query": query})
-    return result
+    formatted_prompt = prompt.format(context=context, query=query)
+
+    response = llm.invoke(formatted_prompt)
+    return response.content
