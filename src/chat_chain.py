@@ -2,7 +2,7 @@ from langchain_openai import ChatOpenAI
 
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain.chains import RetrievalQA
+from langchain_community.chains import RetrievalQA
 from langchain.docstore import InMemoryDocstore
 from langchain.schema import Document
 
